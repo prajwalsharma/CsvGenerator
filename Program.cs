@@ -17,7 +17,7 @@ namespace CsvGenerator
             var employees = EmployeeRepository.GetEmployees();
 
             // 2. Set Path to store CSV file along with file name
-            var pathToStoreFiles = $"D:\\Programming\\.NET Standard\\CsvGenerator\\CsvFiles\\employees.csv";
+            var pathToStoreFiles = $"D:\\Programming\\.NET Standard\\CsvGenerator\\CsvFiles\\employee.csv";
 
             // 3. Generate CSV 
             using (var writer = new StreamWriter(pathToStoreFiles))
